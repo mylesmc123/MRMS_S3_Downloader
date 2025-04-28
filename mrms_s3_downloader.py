@@ -31,6 +31,3 @@ while current_time <= end_time:
         print(f"Failed to download {filename} (HTTP {response.status_code})")
     
     current_time += timedelta(hours=1)
-
-# ex link: https://noaa-mrms-pds.s3.amazonaws.com/CONUS/MultiSensor_QPE_01H_Pass2_00.00/20250425/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20250425-000000.grib2.gz
-# bad link https://noaa-mrms-pds.s3.amazonaws.com/CONUS/MultiSensor_QPE_01H_Pass2_00.00/20250425/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20250425-000000.grib2.gz'
